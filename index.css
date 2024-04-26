@@ -17,3 +17,19 @@
     font-size:16px;
 
 }
+
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+
+.hero-section > div > h1{
+    color: #4d4d4d;
+    font-size:35px;
+    font-weight:bolder;
+
+
+
+
+}
