@@ -39,5 +39,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    gap: 3%;
+}
+
+.image-container img {
+    width: 3%;
+    max-width: 100%;
+}
+
+.sub-hero-sectionOne{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+
+.sub-hero-sectionOne> div > h1{
+    color: #4d4d4d;
+    font-size:35px;
+    font-weight:bolder;
+}
+.sub-hero-sectionOne> div > h1 span{
+    display: block;
+    font-size:35px;
+    color: #4d4d4d;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+}
+.sub-hero-sectionOne> div > p{
+    display: block;
+    font-size:16px;
+    color: #4d4d4d;
+    font-weight: normal;
+    align-content: center;
+    text-align: center;
 }
