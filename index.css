@@ -1,14 +1,16 @@
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 25px;
 }
 .mid-section{
     display: flex;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
-    font-size: large;
+    font-weight: 500;
+    font-size: 16px;
+    /*font-size: large;*/
 
 }
 
@@ -22,6 +24,9 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 90px;
+    padding-right: 144px;
+    gap: 10px ;
+    padding-left: 144px;
 }
 
 .hero-section > div > h1{
@@ -39,13 +44,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 20%;
     gap: 3%;
+
 }
 
 .image-container img {
@@ -175,4 +182,24 @@
     padding-bottom: 40px;
     background: #263238;
     justify-content: space-evenly;
+}
+.sign-up{
+    padding: 10px;
+    border-radius: 4px;
+    border: none; color: #fff;
+    background: #4caf4f;
+}
+.sign-up:hover{
+    background: #6faf72;
+    padding: 15px;
+
+}
+
+.Last_footer{
+
+    background-color: white;
+    padding: 15px;
+}
+.Last_footer::placeholder{
+    color: white;
 }
