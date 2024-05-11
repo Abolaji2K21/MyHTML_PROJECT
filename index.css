@@ -203,3 +203,39 @@
 .Last_footer::placeholder{
     color: white;
 }
+
+@media only screen and (max-width: 728px) {
+    .nav{
+        display: none;
+    }
+    .hero-section > img{
+        display: none;
+    }
+    .member2{
+        flex-direction: column;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .section2 >img{
+        display: none;
+    }
+    .section4 > img{
+        display: none;
+    }
+    .footer-sider{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .input{
+        width: 70%;
+    }
+    .image{
+        left: -31px;
+        top: 4px;
+    }
+
+}
